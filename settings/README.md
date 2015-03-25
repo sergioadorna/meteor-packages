@@ -8,7 +8,7 @@ Imagine we want to access a setting located in: Meteor.settings.moduleName.modul
 ```Javascript
     var settingValue = Settings.get('fallbackValue','moduleName','moduleSetting');
 ```
-in case the key is not found settingVal will be assigned the value 'fallbackValue'
+in case the key is not found settingValue will be assigned the value 'fallbackValue'
 
 > Note: remember that from the client side you can only access the settings defined in Meteor.settings.public object
 
